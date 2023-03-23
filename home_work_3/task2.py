@@ -15,5 +15,5 @@ print(my_list)
 find_num = int(input('Введите искомое число: '))
 count = 1
 
-close_num =[abs(my_list[i]-find_num) for i in range(len(my_list))]
+close_num = [abs(my_list[i]-find_num) for i in range(len(my_list))]
 print(my_list[close_num.index(min(close_num))])
